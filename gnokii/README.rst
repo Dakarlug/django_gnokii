@@ -12,9 +12,16 @@ Vous pouvez Demarrer django_gnokii de facon tres simple
      Receiving message started
 
 
+
+
 Puis vous pouvez envoyer un SMS a votre Modem.django_gnokii
 stockera le sms recu dans une base, puis accessible depuis
 le WEB UI.
+  >>> python manage.py runserver
+      Development server is running at http://127.0.0.1:8000/
+
+
+  
 ================MODEM===================
 
 django_gnokii utilise un modem HUAWEI MOBILE (Modem vendu par Orange) a 10000 FCFA.
